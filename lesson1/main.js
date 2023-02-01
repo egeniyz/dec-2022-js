@@ -25,4 +25,10 @@ console.log(bool1);
 let bool2 = false
 console.log(bool2);
 
+let firstName = 'Yevhen'
+let middleName = 'Anatoliyovich'
+let lastName = 'Zabudskyi'
+console.log(`${lastName} ${firstName} ${middleName}`)
+person = console.log(lastName + ' ' + firstName + ' ' + middleName)
+
 
