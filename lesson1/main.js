@@ -31,4 +31,11 @@ let lastName = 'Zabudskyi'
 console.log(`${lastName} ${firstName} ${middleName}`)
 person = console.log(lastName + ' ' + firstName + ' ' + middleName)
 
+let a = 100;
+console.log(typeof a)
+let b = '100';
+console.log(typeof b)
+let c = true;
+console.log(typeof c)
+
 
