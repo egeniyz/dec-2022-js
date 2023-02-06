@@ -1,10 +1,84 @@
-/*Масиви та об'єкти:
-- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
-- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
-- Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача*/
+
+// - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+
+
+
 
 let arr = ['first', 2 , true , '4' , 5 , [1 , 2] , 'seven' , 'eight' , 'nine' , 10]
+console.log('first')
+console.log(2)
+console.log(true)
+console.log('4')
+console.log(5)
+console.log(arr[5])
+console.log('seven')
+console.log('eight')
+console.log('nine')
+console.log(10)
+
+// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+
+let book1 = {
+    title:         'how bryansk burned',
+    pageCount:     28,
+    genre:         'near future'
+};
+console.log(book1)
+
+let book2 = {
+    title:         'how kursk burned',
+    pageCount:     43,
+    genre:         'near future'
+};
+console.log(book2)
+
+let book3 = {
+    title:         'how moscow burned',
+    pageCount:     101,
+    genre:         'near future'
+};
+console.log(book3)
+
+/*
+    - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.*/
+
+let book4 = {
+    title:         'how bryansk burned',
+    pageCount:     28,
+    genre:         'near future',
+    authors : [ {
+        name: 'Petrenko',
+        age:  41}
+    ]
+};
+console.log(book4)
+
+let book5 = {
+    title:         'how kursk burned',
+    pageCount:     43,
+    genre:         'near future',
+    authors : [ {
+        name: 'Shevchenko',
+        age:  47
+    }
+    ]
+};
+console.log(book5)
+
+let book6 = {
+    title:         'how moscow burned',
+    pageCount:     101,
+    genre:         'near future',
+    authors : [ {
+        name: 'Zaluzhnyi',
+        age:  51
+    }
+    ]
+};
+console.log(book6)
+
+
+    // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
 
 
