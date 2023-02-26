@@ -1,6 +1,7 @@
 // - Знайти та вивести довижину настипних стрінгових значень
 // 'hello world', 'lorem ipsum', 'javascript is cool'
-
+let str1 = 'hello world';
+str1.length
 
 
 
